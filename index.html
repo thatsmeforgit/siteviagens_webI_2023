@@ -1,0 +1,47 @@
+<!doctype html>
+
+<!-- <html> representa a raiz de um código html, todos os outros elementos descendem dele-->
+<html lang="pt-br">
+
+<!-- <head> informações gerais sobre o documento, incluindo títulos, links para script e folhas de estilo -->
+<head>
+    <!-- <meta> define qualquer informação de metadados que não podem ser definidos por outros elementos HTML-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <tittle> Título da página -->
+    <title>IFPR Viagens</title>
+    <!-- <script> inlcuir ou referenciar um script executável -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- <link> vincula ou relaciona o documento atual com um recurso externo. Ex.: file.css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<!-- <body> é o corpo de toda a página -->
+<body>
+    <!-- <header> indica a área de cabeçalho para a página, pode conter logo, formulário de pesquisa, e outros... -->
+    <header>
+        <!-- <nav> Representa uma seção da página que pode apontar para outras páginas ou outra área da página -->
+        <nav> 
+            <!-- <p> Parágrafo -->
+            <p>IFPR Viagens</p>
+            <!-- <ul> representa uma coleção de itens que nao seguem uma ordem numérica -->
+            <ul>
+                <!-- <li> representa um item que faz parte de uma lista -->
+                <li><a href="#home">Home</a></li>
+                <li><a href="#pacotes">Pacotes</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div>  é um container genérico para conteúdo de fluxo, pode ser utilizado para agrupar elementos para fins de estlização -->
+        <div id="home" class="header-content">
+            <!-- <h1> Representa o título principal da página -->
+            <h1>Monte Fuji</h1>
+            <p>Conheça o monte fuji, veja as belezas desse lugar! O embarque está próximo, junte-se a nós nessa experiência</p>
+            <!-- <button> representa um botão clicável -->
+            <button>Saiba mais</button>
+        </div>
+    </header>
