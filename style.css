@@ -63,7 +63,7 @@ header nav ul li {
 }
 
 .pacotes {
-  background: #70ef96;
+  background: #FFDAB9;
   padding: 15px;
 }
 
@@ -84,7 +84,7 @@ header nav ul li {
 .pacotes .card {
   width: 250px;
   height: 350px;
-  background: #f19b39;
+  background: #ff8800;
   border-radius:24px 0;
   margin: 25px;
   position: relative;
