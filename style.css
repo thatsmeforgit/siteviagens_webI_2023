@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  color: black;
+  color: white;
 }
 
 ul {
@@ -84,7 +84,7 @@ header nav ul li {
 .pacotes .card {
   width: 250px;
   height: 350px;
-  background: white;
+  background: #f19b39;
   border-radius:24px 0;
   margin: 25px;
   position: relative;
@@ -112,7 +112,7 @@ header nav ul li {
   display: flex;
   align-items: center;
   margin: 3px 0;
-  color: grey;
+  color: whitesmoke;
   font-weight: bold;
 }
 
