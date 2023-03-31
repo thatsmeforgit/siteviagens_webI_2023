@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  border: 0;
+  background: #1d61dd;
+  color: white;
+}
+
+header {
+  background: no-repeat center/cover url("assets/header-image.jpg");
+  height: calc(100vh - 150px);
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 90px;
+}
+
+header nav p {
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+.header-content {
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.header-content h1 {
+  margin-bottom: 10px;
+  font-size: 4rem;
+}
+
+.pacotes {
+  background: #FFDAB9;
+  padding: 15px;
+}
+
+.pacotes .pacotes-card{
+  display: flex;
+  margin: auto;
+  max-width: 950px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pacotes .pacotes-title{
+  width: 100%;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.pacotes .card {
+  width: 250px;
+  height: 350px;
+  background: #ff8800;
+  border-radius:24px 0;
+  margin: 25px;
+  position: relative;
+}
+
+.pacotes .card-image {
+  width: 250px;
+  height: 250px;
+  border-radius: 24px 0 0 0;
+  object-fit: cover;
+}
+
+.pacotes .card-content {
+  padding: 0 15px;
+}
+
+.pacotes .card-content ul {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.pacotes .card-content ul li {
+  font-size: 0.6rem;
+  display: flex;
+  align-items: center;
+  margin: 3px 0;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.pacotes .card-content li svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+  font-size: 1rem;
+}
+
+.pacotes .card .card-tag-top {
+  position: absolute;
+  right: 0;
+  top: 15px;
+  background: #f19b39;
+  border-radius: 8px 0 0 8px;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom {
+  position: absolute;
+  left: 0;
+  top: 160px;
+  background: #1d61dd;
+  border-radius: 0 8px 8px 0;
+  padding: 5px 10px;
+}
+
+.pacotes .card .card-tag p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: white;
+  font-weight: bold;
+}
