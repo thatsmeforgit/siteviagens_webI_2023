@@ -76,6 +76,7 @@ header nav ul li {
 }
 
 .pacotes .pacotes-title{
+  font-size: 3rem;
   width: 100%;
   text-align: center;
   margin: 25px 0;
@@ -115,7 +116,7 @@ header nav ul li {
   display: flex;
   align-items: center;
   margin: 3px 0;
-  color: whitesmoke;
+  color: #eceae6;
   font-weight: bold;
 }
 
