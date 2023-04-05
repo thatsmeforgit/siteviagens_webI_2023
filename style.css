@@ -83,7 +83,7 @@ header nav ul li {
 
 .pacotes .card {
   width: 250px;
-  height: 350px;
+  height: 375px;
   background: #ff8800;
   border-radius:24px 0;
   margin: 25px;
@@ -91,8 +91,11 @@ header nav ul li {
 }
 
 .pacotes .card-image {
+  /*Largura dos cards*/
   width: 250px;
+  /*altura dos cards*/
   height: 250px;
+  /*Curva na borda do card*/
   border-radius: 24px 0 0 0;
   object-fit: cover;
 }
