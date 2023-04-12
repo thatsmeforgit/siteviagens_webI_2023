@@ -154,3 +154,68 @@ header nav ul li {
   color: white;
   font-weight: bold;
 }
+
+.servicos {
+  padding: 15px;
+  color: black;
+  text-align: center;
+}
+
+.servicos .servicos-tittle {
+  
+  margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+  margin-top: 25px;
+  display: flex;
+  max-width: 950px;
+  justify-content: center;
+  margin: auto;
+  
+
+}
+
+.servicos .card {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+  color: black;
+}
+
+.servicos .card svg {
+  width: 60px;
+  height: 60px;
+  margin: 50px;
+}
+
+.servicos .card svg:hover {
+  stroke: #1d61dd;
+  transform: scale(1.1);
+}
+
+.servicos .card h3 {
+  font-weight: bold;
+
+}
+
+.servicos .card p {
+  color: grey;
+  font-size: .8rem;
+  text-align: center;
+}
+
+.servicos .card .card-content {
+  height: 180px;
+  text-align: center;
+}
+
+.contato {
+  padding: 50px;
+  color: black;
+  text-align: center;
+}
+
